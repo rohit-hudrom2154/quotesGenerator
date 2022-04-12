@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta
+                  name="viewport"
+                  content="width=device-width, initial-scale=1.0"
+            />
+            <title>Quotes Generator</title>
+            <link
+                  rel="icon"
+                  type="image/png"
+                  href="https://www.google.com/s2/u/0/favicons?domain=rk.com"
+            />
+            <link
+                  rel="stylesheet"
+                  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+            />
+            <link rel="stylesheet" href="style.css" />
+      </head>
+      <body>
+            <div class="quote-container" id="quote-container">
+                  <!-- quote -->
+                  <div class="quote-text">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        <span class="quote" id="quote"></span>
+                  </div>
+                  <!-- author -->
+                  <div class="quote-author">
+                        <div class="author">
+                              <span id="author"></span>
+                        </div>
+                  </div>
+                  <!-- Buttons -->
+                  <div class="buttons">
+                        <button
+                              class="twitter-button"
+                              id="twitter"
+                              title="Tweet this!"
+                        >
+                              <i class="fa-brands fa-twitter"></i>
+                        </button>
+                        <button id="newQuote">New Quote</button>
+                  </div>
+            </div>
+            <div class="loader" id="loader"></div>
+            <!-- local quotes -->
+            <!-- <script src="localQuotes.js"></script>
+            <script src="script2.js"></script> -->
+
+            <!-- Fetch quotes from an API -->
+            <script src="script.js"></script>
+      </body>
+</html>
