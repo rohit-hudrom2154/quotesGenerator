@@ -1,0 +1,22 @@
+{
+  "name": "npmtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "localQuotes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitHuidrom/quotesGenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohitHuidrom/quotesGenerator/issues"
+  },
+  "homepage": "https://github.com/rohitHuidrom/quotesGenerator#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
